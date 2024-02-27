@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+
+body{
+    background-color: aquamarine;
+
+}
+
+form{
+    background-color: antiquewhite;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 20px;
+    border-color: aquamarine;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid aquamarine;
+    border-radius: 3px;
+}
+.signIn{
+    padding-right: 10px;
+}
+
+input[type=button]{
+    background-color: aquamarine;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+}
+
+input[type=button]:hover{
+    border: 2px solid aquamarine;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
